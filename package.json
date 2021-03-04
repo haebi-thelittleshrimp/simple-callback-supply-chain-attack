@@ -1,0 +1,23 @@
+{
+  "name": "simple-callback-supply-chain-attack",
+  "version": "1.0.0",
+  "description": "Proof-Of-Concept (POC) to demonstrate Supply Chain Attack via a malicious Node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haebi-thelittleshrimp/simple-callback-supply-chain-attack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haebi-thelittleshrimp/simple-callback-supply-chain-attack/issues"
+  },
+  "homepage": "https://github.com/haebi-thelittleshrimp/simple-callback-supply-chain-attack#readme",
+  "dependencies": {
+    "base32": "0.0.6"
+  }
+}
